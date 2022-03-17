@@ -214,3 +214,49 @@ hr{
      margin-top: 80px;
      font-size: 26px;
  }
+
+ /* media queries */
+
+ /* for mobile */
+
+ @media only screen and (max-width: 688px){
+     .df{
+         display: none;
+     }
+     .container{
+         width: 100%;
+         
+     }
+     .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .latest_course{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .top_blog     {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-self: flex-start;
+    }
+    .tumbln{
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+    .end_sec{
+        width: 50%;
+    }
+    hr{
+        width: 20%;
+    }
+body{
+    width: 100%;
+}
+    
+
+     
+ }
