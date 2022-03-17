@@ -125,6 +125,9 @@ hr{
  /* Top Blog section end */
 
  /* ---------------------------------------- */
+
+  /* course section start */
+
 .latest_course{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -195,3 +198,18 @@ hr{
 .fa-clock{
     margin-right: 1px;
 }
+
+ /* course section end */
+
+ /* ---------------------------------- */
+
+ /* footer */
+
+ .end_sec{
+     background-color:  #562EFF;
+     color: white;
+     text-align: center;
+     padding: 50px;
+     margin-top: 80px;
+     font-size: 26px;
+ }
